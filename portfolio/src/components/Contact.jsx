@@ -19,11 +19,11 @@ const Contact = () => {
                         color: 'white'
                     }}>
                         Get In <span
-                        style = {{
-                            background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                        style = {{    background: 'linear-gradient(to right, #C084FC , #3b82f6)',
+
                             WebkitBackgroundClip: 'text',
                             backgroundClip: 'text',
-                            color: 'transparent'
+                            WebkitTextFillColor: 'transparent'
                         }}> Touch </span>
                     </h2>
                     <p className = "text-base sm:text-lg md:text-xl"
@@ -99,16 +99,15 @@ className = 'w-full lg:scale-125 max-w-xs sm:max-w-sm lg:max-w-md h-auto object-
                             focus:ring-orange-500/20 transition-all'
                             required/>
                             <button
-                            type='submit'
-                            style={{
-                            background: 'linear-gradient(to right, #f97316, #f59e0b)'
-                            }}
-                            className='w-full py-2 sm:py-3 text-white
-                            font-semibold rounded-lg text-sm sm:text-base
-                            hover: shadow-lg hover: shadow-orange-500/25
-                            hover: scale-[1.02] transition-all'>
-                            Send Message
-                            </button>
+                                type="submit"
+                                
+                                className="w-full py-2 sm:py-3 text-white font-semibold rounded-lg text-sm sm:text-base
+                                bg-linear-to-r from-purple-600 to-blue-900
+                                hover:shadow-lg hover:shadow-purple-500/30
+                                hover:scale-[1.02] transition-all"
+                                >
+                                Send Message
+                                </button>
                         </div>
 
                     </form>

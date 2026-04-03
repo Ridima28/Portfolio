@@ -100,7 +100,7 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                {/* Mobile Menu */}
+
                 {isMenuOpen && (
                     <motion.div
                         initial={{ opacity: 0, height: 0 }}

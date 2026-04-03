@@ -5,8 +5,10 @@ import { useEffect } from "react";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skill";
+
 // import Project from './components/Project';
-import  Contact  from './components/Contact';
+import Contact  from './components/Contact';
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -26,6 +28,7 @@ const App = () => {
       <Skills />
       {/* <Project/> */}
       <Contact/>
+      <Footer/>
     </div>
   );
 };
