@@ -5,7 +5,8 @@ import { useEffect } from "react";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skill";
-import Project from './components/Project';
+// import Project from './components/Project';
+import  Contact  from './components/Contact';
 
 const App = () => {
 
@@ -23,7 +24,8 @@ const App = () => {
       <HeroSection />
       <About />
       <Skills />
-      <Project/>
+      {/* <Project/> */}
+      <Contact/>
     </div>
   );
 };

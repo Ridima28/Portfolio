@@ -31,7 +31,7 @@ const HeroSection = () => {
                                     key={index}
                                     href='#'
                                     target='_blank'
-                                    rel="noopener noreferrer"
+                                    
                                     data-aos-delay={`${400 + index * 100}`}
                                     className='transform hover:scale-110 transition-transform duration-300'>
                                 
