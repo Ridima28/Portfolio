@@ -56,7 +56,9 @@ Currently, I’m exploring advanced concepts in AI and full-stack development wh
                         <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300': 'text-gray-600'}`}> Projects</div>
                     </div>
                 </div>
-                <button className={`w-full sm:w-auto border-2 inline-flex items-center justify-center text-white py-2 px-4 sm:px-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6),0_0_45px_rgba(59,130,246,0.4)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform`}>
+                <button className={`w-full sm:w-auto border-2 inline-flex items-center justify-center text-white py-2 px-4 sm:px-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6),0_0_45px_rgba(59,130,246,0.4)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform ${darkMode ? 'text-white bg-purple-900/10': 'text-gray-800 bg-white/90'}`}
+                data-aos= 'fade-up'
+                data-aos-delay = '800'>
                     Learn More
                 </button>
                 </article>
