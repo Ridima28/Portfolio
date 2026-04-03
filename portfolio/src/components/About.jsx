@@ -38,29 +38,8 @@ const About = ({darkMode}) =>{
                 data-aos-delay= '500'>
                     I’m a passionate developer focused on building real-world solutions using web technologies and AI. I enjoy turning ideas into functional, user-friendly applications that solve meaningful problems.
 
-I’ve worked on projects like an AI-powered Movie App, alowing users to search and favorite/unfavorite their movies, and responsive React applications where I focused on creating efficient, scalable solutions. These experiences have strengthened my problem-solving skills and understanding of real-world system design.
-
-Currently, I’m exploring advanced concepts in AI and full-stack development while actively participating in hackathons and building projects that challenge my abilities. I’m always looking for opportunities to learn, grow, and contribute to impactful work.
+I’ve worked on projects like an AI-powered Movie App, allowing users to search and favorite/unfavorite their movies, and responsive React applications where I focused on creating efficient, scalable solutions. These experiences have strengthened my problem-solving skills and understanding of real-world system design. Currently, I’m exploring advanced concepts in AI and full-stack development while actively participating in hackathons and building projects that challenge my abilities. I’m always looking for opportunities to learn, grow, and contribute to impactful work.
                 </p>
-                <div className='flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8'>
-                    <div className='text-center'
-                    data-aos= 'zoom-in'
-                    data-aos-delay = '600'>
-                        <div className = 'text-2xl sm:text-3xl lg:text-4xl font-bold text-purple-400'>Ug</div>
-                        <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300': 'text-gray-600'}`}> Education</div>
-                    </div>
-                    <div className='text-center'
-                    data-aos= 'zoom-in'
-                    data-aos-delay = '600'>
-                        <div className = 'text-2xl sm:text-3xl lg:text-4xl font-bold text-purple-400'>10+</div>
-                        <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300': 'text-gray-600'}`}> Projects</div>
-                    </div>
-                </div>
-                <button className={`w-full sm:w-auto border-2 inline-flex items-center justify-center text-white py-2 px-4 sm:px-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6),0_0_45px_rgba(59,130,246,0.4)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform ${darkMode ? 'text-white bg-purple-900/10': 'text-gray-800 bg-white/90'}`}
-                data-aos= 'fade-up'
-                data-aos-delay = '800'>
-                    Learn More
-                </button>
                 </article>
             </div>
         </section>

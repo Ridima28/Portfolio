@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import {useEffect, useState} from "react";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
+import Skills from "./components/Skill";
 
 const App = () =>{
   const [darkMode, setDarkMode] = useState(true)
@@ -36,6 +37,7 @@ const App = () =>{
     <Navbar darkMode= {darkMode} toggleDarkMode={toggleDarkMode}/>
     <HeroSection darkMode= {darkMode} />
     <About darkMode= {darkMode} />
+    <Skills darkMode= {darkMode} />
     </div>
   )
 }
