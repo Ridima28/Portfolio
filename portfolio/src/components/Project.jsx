@@ -1,1 +1,1 @@
-// import project from '../assets/projects'
+import project from '../assets/projects'
