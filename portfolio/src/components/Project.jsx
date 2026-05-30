@@ -1,4 +1,5 @@
 import project1 from '../assets/project1';
+import project2 from '../assets/project2';
 import {FaGithub} from 'react-icons/fa'
 
 
@@ -11,15 +12,15 @@ const Project = () => {
             image: project1,
             tags: ['React','Node.js','Javascript']
 
-    }
-        // {
-    //         id: 2,
-    //         title: 'ResumeAnalyser',
-    //         desc: 'A website where you can upload your resume, and get it analyzed by the help of AI',
-    //         image: project1,
-    //         tags: ['React','Node.js','Javascript']
+    },
+        {
+            id: 2,
+            title: 'Hangman Game',
+            desc: 'A game where you have to guess the word saving the man from getting hanged.',
+            image: project2,
+            tags: ['React','Node.js','Javascript']
 
-    // },
+    }
     ]
     return (
         <section 

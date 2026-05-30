@@ -42,7 +42,7 @@ const Skill = () => {
                         className='text-lg max-w-2xl mx-auto leading-relaxed'
                         style={{ color: '#d1d5db' }}>
                     
-                        I have a strong foundation in web development, with expertise in both frontend and backend technologies. My skills are:
+                        I have a strong foundation in web development, with expertise in both frontend and backend technologies. My 
                     </p>
                 </div>
 
